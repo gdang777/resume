@@ -1,8 +1,9 @@
 /* CSS Styles for Resume */
 
-/** {
-  border: 1px solid red;
-}*/
+* {
+  /*border: 1px solid red;*/
+  font-family: 'Share Tech', sans-serif;
+}
 
 html {
   height: 100%;
@@ -67,6 +68,8 @@ main#container {
   text-align: left;
   line-height: 20px;
   max-width: 900px;
+
+  font-size: 130%;
 }
 
 .grid {

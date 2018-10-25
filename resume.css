@@ -28,7 +28,7 @@ img#profile {
   width: 100%;
 /*  border-top-right-radius: 5px;
   border-top-left-radius: 5px;*/
-  filter: grayscale(80%);
+  filter: grayscale(0%);
 }
 
 h1#name {

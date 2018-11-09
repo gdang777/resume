@@ -5,44 +5,43 @@
   <link href="resume.css" rel="stylesheet" type="text/css" >
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-  <div id="sidebar">
-    <!-- My face here -->
 
-    <header>
-      <img id="profile" src="images/headshot_nvb2.jpg" style="height =">
+<body>
+
+  <div id="sidebar">
+    <header class="sidebar-header">
+      <!-- My face here -->
+      <img id="profile-pic" src="images/headshot_nvb2.jpg">
+      <!-- <img src=""> -->
       <h1 id="name">Nick von Buttlar</h1>
-      <h3 id="position">Front-End Web Developer</h3>
+      <h3 id="position">&middot; Front-End Web Developer &middot;</h3>
     </header>
 
-    <br>
+    <hr>
 
-    <section id="contact-info">
+    <section class="contact-info">
       <div class="row">
         <!-- mail icon -->
         <i class="fas fa-envelope"></i>
         <a href="mailto:nick.von.buttlar@gmail.com">nick.von.buttlar@gmail.com</a>
       </div>
-
       <div class="row">
         <!-- phone icon -->
         <i class="fas fa-phone"></i>
         <a href="">647-335-4087</a>
       </div>
-
       <div class="row">
         <!-- location icon -->
         <i class="fas fa-map-marker-alt"></i>
         <a href="">Vancouver, BC</a>
       </div>
-
       <div class="row">
         <!-- github icon -->
         <i class="fab fa-github-square"></i>
         <a href="https://github.com/nvonbuttlar">nvonbuttlar</a>
       </div>
-
       <div class="row">
         <!-- LinkedIn icon -->
         <i class="fab fa-linkedin"></i>
@@ -52,9 +51,8 @@
 
     <hr>
 
-    <section id="education">
+    <section class="education">
       <h3> Education </h3>
-
       <div>
         <span>Lighthouse Labs</span>
         <br>
@@ -71,61 +69,79 @@
         <span>2010 - 2016</span>
       </div>
       <br>
-
-
-
-
     </section>
-
-
-
-
-
-
   </div>
+  <!-- Bottom of sidebar -->
 
-  <main id="container">
-    <!-- Main content of resume goes here -->
+  <!-- Main content -->
+  <main id="main-container">
+
     <h2 class="content-heading"> SUMMARY </h2>
 
     <p> A front-end web developer with an affinity for design and a burning desire to understand the way things work. I am meticulous by nature and a quick learner. A firm believer in growth mindset with aspirations of becoming a full-stack developer. </p>
+
+        <p> A Lighthouse Labs student gravitating toward front-end development with an interest in working in full stack. I am meticulous by nature and love learning how things work.
+
+
+        </p>
+
+
+    <h2 class="content-heading"> PROJECTS </h2>
+
+    <div class="grid">
+      <div class="box">
+        <img class="project-img" src="https://dev.obriy.news/wp-content/uploads/2018/09/placeholder-1.jpg">
+        <h3>
+          Chit-Chat
+        </h3>
+      </div>
+      <div class="box">
+        <img class="project-img" src="https://dev.obriy.news/wp-content/uploads/2018/09/placeholder-1.jpg">
+        <h3>
+          Tweeter
+        </h3>
+      </div>
+      <div class="box">
+        <img class="project-img" src="https://dev.obriy.news/wp-content/uploads/2018/09/placeholder-1.jpg">
+        <h3>
+          Food Rescue
+        </h3>
+      </div>
+    </div>
 
     <h2 class="content-heading"> SKILL STACK </h2>
 
     <div class="grid">
       <div class="box a">
       <h3>Frameworks & Languages</h3>
-      <ul>
-        <li>Javascript</li>
-        <li>jQuery</li>
-        <li>HTML/CSS/SASS</li>
-        <li>Ruby</li>
-        <li>Node.js</li>
-        <li>React</li>
-        <li>Bootstrap</li>
-      </ul>
+        <ul>
+          <li>Javascript</li>
+          <li>jQuery</li>
+          <li>HTML/CSS/SASS</li>
+          <li>Ruby</li>
+          <li>Node.js</li>
+          <li>React</li>
+          <li>Bootstrap</li>
+        </ul>
       </div>
-
 
       <div class="box b">
       <h3>Systems & Databases</h3>
-      <ul>
-        <li>Git/GitHub</li>
-        <li>MongoDB</li>
-        <li>PostgreSQL</li>
-      </ul>
+        <ul>
+          <li>Git/GitHub</li>
+          <li>MongoDB</li>
+          <li>PostgreSQL</li>
+        </ul>
       </div>
 
       <div class="box c">
-
       <h3>Other</h3>
-      <ul>
-        <li>ArcGIS</li>
-        <li>Ableton Live</li>
-      </ul>
-
+        <ul>
+          <li>Chrome Dev Tools</li>
+          <li>ArcGIS</li>
+          <li>Ableton Live</li>
+        </ul>
       </div>
-
     </div>
 
     <div id="employment">
@@ -155,25 +171,8 @@
       </p>
     </div>
 
-    <div id="projects">
-      <h2 class="content-heading"> PROJECTS </h2>
-      <p>
-        Lighthouse Labs <br>
-        <a href="">Tiny-App</a> &middot; <a href="">Tweeter</a> &middot; <a href="">Food Rescue</a> <br>
-        <br>
-
-        Crown Property Management Inc. <br>
-        <a href="">GM Markham Technical Center</a> <br>
-        <br>
-
-        Draw, Cut, & Connect <br>
-        <a href="">Page Street</a> <br>
-        <br>
-      </p>
-    </div>
-
   </main>
 
-
 </body>
+
 </html>

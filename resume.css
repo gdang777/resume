@@ -1,5 +1,9 @@
 /* CSS Styles for Resume */
 
+/* FUTURE SASS ---> Border as variable */
+
+
+
 * {
 /*  border: 1px solid red;*/
 font-family: 'Share Tech', sans-serif;
@@ -9,7 +13,17 @@ html {
   font-size: 16px;
 }
 
+/* HORIZONTAL LINES*/
 
+#position::after, .contact-info::after, .content-heading::after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  border-bottom: 2px solid black;
+  overflow: hidden;
+  justify-content: space-around;
+}
 
 /* MAIN CONTENTS SECTION */
 
@@ -21,11 +35,8 @@ html {
   line-height: 20px;
   margin-left: 300px;
   margin-right: 100px;
-  padding: 15px 15px;
+  padding: 0px 15px;
 
-}
-
-h2.content-heading {
 }
 
 #projects a {
@@ -71,6 +82,7 @@ h2.content-heading {
   width: auto;
   max-width: 250px;
   justify-content: center;
+  border: 2px solid;
 }
 
 #name {
@@ -91,7 +103,7 @@ h2.content-heading {
 }
 
 div.row a{
-  font-size: 1.05em;
+  font-size: 1em;
   text-decoration: none;
   color: black;
 }
@@ -102,7 +114,11 @@ i {
 }
 
 .education {
+  font-size: 1em;
+}
 
+.school {
+  font-weight: bold;
 }
 
 

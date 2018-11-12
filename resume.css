@@ -5,13 +5,19 @@
 
 
 * {
-/*  border: 1px solid red;*/
-font-family: 'Share Tech', sans-serif;
+  /*  border: 1px solid red;*/
+  font-family: 'Share Tech', sans-serif;
 }
 
 html {
   font-size: 16px;
 }
+
+body {
+  margin-left: 0px;
+
+}
+
 
 /* HORIZONTAL LINES*/
 
@@ -22,60 +28,21 @@ html {
   vertical-align: middle;
   border-bottom: 2px solid black;
   overflow: hidden;
-  justify-content: space-around;
+  margin: 0px 0px;
 }
-
-/* MAIN CONTENTS SECTION */
-
-#main-container {
-  font-size: 1.25em;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  line-height: 20px;
-  margin-left: 300px;
-  margin-right: 100px;
-  padding: 0px 15px;
-
-}
-
-#projects a {
-  text-decoration: none;
-  color: black;
-}
-
-.grid {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 33.3% 33.4% 33.3%;
-}
-
-.project-img {
-  height: auto;
-  width: auto;
-  max-width: 250px;
-  justify-content: center;
-}
-
-/* Eventually change this text so it is not in an anchor tag */
-
-
 
 /* SIDE BAR SECTION */
 
 #sidebar {
   position: fixed;
+  margin-left: 70px;
   overflow: auto;
   float: left;
-/*  border: 1px solid red; */
-  padding: 15px 15px;
-  border-color: white;
-  border-right: ridge;
-
+  padding: 15px 15px 15px 15px;
+  border: 2px solid black;
+  background-color: #efeff5;
 }
 
-.sidebar-header {
-}
 
 #profile-pic {
   height: auto;
@@ -84,6 +51,7 @@ html {
   justify-content: center;
   border: 2px solid;
 }
+
 
 #name {
   display: block;
@@ -100,6 +68,7 @@ html {
 }
 
 .contact-info {
+  font-size: 0.9em;
 }
 
 div.row a{
@@ -120,6 +89,56 @@ i {
 .school {
   font-weight: bold;
 }
+
+/* MAIN CONTENTS SECTION */
+
+#main-container {
+  font-size: 1.25em;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 20px;
+  margin-left: 365px;
+  margin-right: 70px;
+  padding: 0px 15px;
+  border: 2px solid black;
+
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 33.3% 33.4% 33.3%;
+}
+
+.project-img {
+  border: 2px solid black;
+  height: auto;
+  width: auto;
+  max-width: 250px;
+
+}
+
+.project-title {
+  margin: 8px 0px;
+}
+
+.project-info {
+  margin: 0px;
+  padding: 0px;
+}
+
+#sign-off {
+  margin: 0px;
+  padding: 0px;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+
+}
+
+
+
 
 
 

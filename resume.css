@@ -105,6 +105,11 @@ i {
 
 }
 
+#summary {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
 .grid {
   display: grid;
   width: 100%;
@@ -116,7 +121,6 @@ i {
   height: auto;
   width: auto;
   max-width: 250px;
-
 }
 
 .project-title {
@@ -128,6 +132,10 @@ i {
   padding: 0px;
 }
 
+.sub-heading {
+  margin-top: 0px;
+}
+
 .job-title {
   margin: 0px;
 }
@@ -136,6 +144,10 @@ i {
   margin: 0px;
   font-weight: normal;
   font-style: italic;
+}
+
+.job-description {
+  margin-top: 5px;
 }
 
 #sign-off {

@@ -34,13 +34,13 @@ body {
 /* SIDE BAR SECTION */
 
 #sidebar {
+  border-radius: 2px;
   position: fixed;
   margin-left: 70px;
   overflow: auto;
   float: left;
   padding: 15px 15px 15px 15px;
-  /*border: 2px solid black;*/
-  background-color: #efeff5;
+  background-color: #f2f4fb;
 }
 
 
@@ -49,7 +49,7 @@ body {
   width: auto;
   max-width: 250px;
   justify-content: center;
-  /*border: 2px solid;*/
+  border-radius: 200px;
 }
 
 
@@ -101,12 +101,11 @@ i {
   margin-left: 365px;
   margin-right: 70px;
   padding: 0px 15px;
-  /*border: 2px solid black;*/
 
 }
 
 #summary {
-  margin-top: 5px;
+  margin-top: 17px;
   margin-bottom: 0px;
 }
 
@@ -121,6 +120,8 @@ i {
   height: auto;
   width: auto;
   max-width: 250px;
+  border-radius: 2px;
+
 }
 
 .project-title {
@@ -148,6 +149,10 @@ i {
 
 .job-description {
   margin-top: 5px;
+}
+
+.list {
+  list-style-type: none;
 }
 
 #sign-off {

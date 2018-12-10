@@ -1,9 +1,5 @@
 /* CSS Styles for Resume */
 
-/* FUTURE SASS ---> Border as variable */
-
-
-
 * {
   /*  border: 1px solid red;*/
   font-family: 'Share Tech', sans-serif;
@@ -115,13 +111,47 @@ i {
   grid-template-columns: 33.3% 33.4% 33.3%;
 }
 
+.project-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:
+    "project-a project-c"
+    "project-b project-c";
+  margin-bottom: 10px;
+
+}
+
+.project-a {
+  grid-area: project-a;
+  margin-bottom: 10px;
+}
+
+.project-b {
+  grid-area: project-b;
+}
+
+.project-c {
+  grid-area: project-c;
+  margin-left: 115px;
+}
+
+#pai-img {
+  max-height: 380px;
+}
+
 .project-img {
   border: 2px solid black;
   height: auto;
   width: auto;
   max-width: 250px;
   border-radius: 2px;
+  opacity: 0.9;
+}
 
+.project-img:hover {
+  opacity: 1;
 }
 
 .project-title {

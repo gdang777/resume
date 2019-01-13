@@ -36,7 +36,7 @@ body {
   overflow: auto;
   float: left;
   padding: 15px 15px 15px 15px;
-  background-color: #f2f4fb;
+  background-color: lightgrey;
 }
 
 
@@ -193,10 +193,3 @@ i {
   text-align: center;
 
 }
-
-
-
-
-
-
-
